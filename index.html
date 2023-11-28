@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to the CSS file-->
+    <link rel="stylesheet" type="text/css" href="assets\styles.css" />
+    <title>JavaQuiz</title>
+</head>
+<body>
+    <!--Makes a div for the headline that contains a button and a timer-->
+    <div class="headline">
+        <button>View Highscores</button>
+        <p>Timer: 00:00</p>
+    </div>
+    <!--Contains a div for all of the main page' content-->
+    <div class="main-page">
+        <!--Contains the header with the class "start-point"-->
+    <header class="start-point">
+     <h1> JavaScript Functionaility Quiz</h1>   
+     <p> Press the button to start the quiz on some JavaScript Functionaility. Watch your time and get a highscore!</p>
+     <button class = "start-button">Start</button> 
+    </header>
+    <!--Contains a class of "quiz" to organize the quiz section when the user presses start-->
+    <main class="quiz">
+        <!--A section within main that contains the actual test-->
+        <section class="test">
+            <h1>Question 1</h1>
+            <ul>
+                <li><button>Answer1</button></li>
+                <li><button>Answer2</button></li>
+                <li><button>Answer3</button></li>
+                <li><button>Answer4</button></li>
+            </ul>
+        </section>
+        <!--A section that contains the results page with the final score and input for intials-->
+        <section class ="results">
+            <h1>All Done!</h1>
+            <p> Your final score: 00</p>
+            <!--Code to have text with a input box with a button at the end-->
+            <label>Enter initals
+                <input type="text" id="initals"/>
+                <button>Submit</button>
+            </label>
+        </section>
+        <!--A section for the final page that shows the Highscores with a logged intials-->
+        <section class="Highscores">
+            <h1>Highscores</h1>
+            <ul class="UserScore"></ul>
+            <button>Go Back</button>
+            <button>Clear Highscores</button>
+        </section>
+    </main>
+</div>
+<!--Link to the script file-->
+ <script src="assets\scripts.js"></script>   
+</body>
+</html>
