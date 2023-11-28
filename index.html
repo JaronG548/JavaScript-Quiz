@@ -10,7 +10,7 @@
     <!--Makes a div for the headline that contains a button and a timer-->
     <div class="headline">
         <button>View Highscores</button>
-        <p>Timer: 00:00</p>
+        <p id="Timer">Timer: 00:00</p>
     </div>
     <!--Contains a div for all of the main page' content-->
     <div class="main-page">
@@ -18,7 +18,7 @@
     <header class="start-point">
      <h1> JavaScript Functionaility Quiz</h1>   
      <p> Press the button to start the quiz on some JavaScript Functionaility. Watch your time and get a highscore!</p>
-     <button class = "start-button">Start</button> 
+     <button class = "start-button" id="Start">Start</button> 
     </header>
     <!--Contains a class of "quiz" to organize the quiz section when the user presses start-->
     <main class="quiz">
@@ -26,10 +26,10 @@
         <section class="test">
             <h1>Question 1</h1>
             <ul>
-                <li><button>Answer1</button></li>
-                <li><button>Answer2</button></li>
-                <li><button>Answer3</button></li>
-                <li><button>Answer4</button></li>
+                <li><button id="AnswerA">Answer1</button></li>
+                <li><button id="AnswerB">Answer2</button></li>
+                <li><button id="AnswerC">Answer3</button></li>
+                <li><button id="AnswerD">Answer4</button></li>
             </ul>
         </section>
         <!--A section that contains the results page with the final score and input for intials-->
@@ -38,7 +38,7 @@
             <p> Your final score: 00</p>
             <!--Code to have text with a input box with a button at the end-->
             <label>Enter initals
-                <input type="text" id="initals"/>
+                <input type="text" id="initials"/>
                 <button>Submit</button>
             </label>
         </section>
