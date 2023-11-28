@@ -1,0 +1,81 @@
+/*Has basic styles for webpage overall*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Top nav area that has the "View Highscores" and Timer. This will show no matter what*/
+.headline {
+    font-family: monospace;
+    padding: 10px;
+    height: 50px;
+    flex-direction: row;
+    justify-content: start;
+}
+/*Manipulates the "View Highscores" button*/
+.headline button {
+    text-decoration: none;
+    color: blueviolet;
+    float: left;
+}
+/* Makes the Timer go to the right of the webpage*/
+.headline p {
+    float: right;
+}
+/*Styles the Main sections of the pages*/
+.main-page {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    font-size: larger;
+}
+/*Styles the start of the webpage*/
+ .start-point  {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+
+ }
+/*Styles the start button*/
+ .start-button {
+   padding: 5px;
+   width: 100px;
+   background-color: #6C3483;
+   color: aliceblue;
+   display: block;
+   margin: auto;
+ }
+/*Styles the test section*/
+ .test{
+    display: none;
+    width: fit-content;
+    margin: auto;
+ }
+/*Stlyes all of the orderd list or Answers*/
+ul {
+   list-style-type: none;
+   margin-right: 500px;
+   padding: 5%;
+   border: 5%;
+   color: aliceblue; 
+}
+/*Styles the buttons of the answer choices*/
+ul button {
+    margin: 13px;
+    padding: 5%;
+    border: 5%;
+    background-color: #6C3483;
+    color: aliceblue;
+}
+/*Styles the results page showing your score and if you want to post your highscore with your initals */
+.results {
+   display: none;
+}
+/*Styles the final page that shows the Highscore*/
+.Highscores {
+    display: none;
+}
